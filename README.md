@@ -12,6 +12,6 @@ LuaSQL is free software and uses the same license as Lua 5.1.
 Source code for LuaSQL can be downloaded from its GitHub repository.
 
 ## QLua build
-Сборка для Lua 5.3 и Lua 5.4 (x64)
+Форкнуто для удобной сборки для Lua 5.3 и Lua 5.4 (x64)
 
 Подробнее: https://quik2dde.ru/viewtopic.php?id=339
