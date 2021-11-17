@@ -1,0 +1,118 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqlmysql40_dll", "luasqlmysql40_dll.vcxproj", "{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqlmysql41_dll", "luasqlmysql41_dll.vcxproj", "{A1FCDCA5-5312-4C8F-BAC1-23570322E907}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqlmysql50_dll", "luasqlmysql50_dll.vcxproj", "{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqloci8_dll", "luasqloci8_dll.vcxproj", "{54246E6A-C32F-494B-8A39-8313C05760A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqlodbc_dll", "luasqlodbc_dll.vcxproj", "{33090DCD-936A-4FC0-99CB-555446636BB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqlpostgres_dll", "luasqlpostgres_dll.vcxproj", "{9680719B-0CD6-4009-98BB-9D491DF8F29F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqlsqlite_dll", "luasqlsqlite_dll.vcxproj", "{6A08B824-6923-41B9-A377-710E71E2B480}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release-Lua53|x64 = Release-Lua53|x64
+		Release-Lua53|x86 = Release-Lua53|x86
+		Release-Lua54|x64 = Release-Lua54|x64
+		Release-Lua54|x86 = Release-Lua54|x86
+		Template|x64 = Template|x64
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua53|x86.Build.0 = Release-Lua53|Win32
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua54|x64.ActiveCfg = Release-Lua54|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua54|x64.Build.0 = Release-Lua54|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua54|x86.ActiveCfg = Release-Lua54|Win32
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua54|x86.Build.0 = Release-Lua54|Win32
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Template|x64.ActiveCfg = Release|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Template|x64.Build.0 = Release|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Template|x86.ActiveCfg = Release|Win32
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Template|x86.Build.0 = Release|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua53|x86.Build.0 = Release-Lua53|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua54|x64.ActiveCfg = Release-Lua54|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua54|x64.Build.0 = Release-Lua54|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua54|x86.ActiveCfg = Release-Lua54|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua54|x86.Build.0 = Release-Lua54|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Template|x64.ActiveCfg = Template|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Template|x64.Build.0 = Template|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Template|x86.ActiveCfg = Template|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Template|x86.Build.0 = Template|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua53|x86.Build.0 = Release-Lua53|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua54|x64.ActiveCfg = Release-Lua54|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua54|x64.Build.0 = Release-Lua54|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua54|x86.ActiveCfg = Release-Lua54|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua54|x86.Build.0 = Release-Lua54|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Template|x64.ActiveCfg = Template|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Template|x64.Build.0 = Template|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Template|x86.ActiveCfg = Template|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Template|x86.Build.0 = Template|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua53|x86.Build.0 = Release-Lua53|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua54|x64.ActiveCfg = Release-Lua54|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua54|x64.Build.0 = Release-Lua54|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua54|x86.ActiveCfg = Release-Lua54|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua54|x86.Build.0 = Release-Lua54|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Template|x64.ActiveCfg = Template|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Template|x64.Build.0 = Template|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Template|x86.ActiveCfg = Template|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Template|x86.Build.0 = Template|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua53|x86.Build.0 = Release-Lua53|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua54|x64.ActiveCfg = Release-Lua54|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua54|x64.Build.0 = Release-Lua54|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua54|x86.ActiveCfg = Release-Lua54|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua54|x86.Build.0 = Release-Lua54|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Template|x64.ActiveCfg = Template|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Template|x64.Build.0 = Template|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Template|x86.ActiveCfg = Template|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Template|x86.Build.0 = Template|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua53|x86.Build.0 = Release-Lua53|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua54|x64.ActiveCfg = Release-Lua54|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua54|x64.Build.0 = Release-Lua54|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua54|x86.ActiveCfg = Release-Lua54|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua54|x86.Build.0 = Release-Lua54|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Template|x64.ActiveCfg = Template|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Template|x64.Build.0 = Template|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Template|x86.ActiveCfg = Template|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Template|x86.Build.0 = Template|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua53|x86.Build.0 = Release-Lua53|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua54|x64.ActiveCfg = Release-Lua54|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua54|x64.Build.0 = Release-Lua54|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua54|x86.ActiveCfg = Release-Lua54|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua54|x86.Build.0 = Release-Lua54|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Template|x64.ActiveCfg = Template|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Template|x64.Build.0 = Template|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Template|x86.ActiveCfg = Template|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

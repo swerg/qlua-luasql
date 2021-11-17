@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{71455c4c-dd73-49d2-adf8-979092c5e704}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{68ca58e1-3bc4-4a9c-9188-c5dfaaad9b44}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="sqllite Files">
+      <UniqueIdentifier>{daf1f605-67a9-4183-8613-dcea8c8e9de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c1101381-fb13-47c2-90f7-27738efc5aff}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\compat\src\compat-5.1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ls_sqlite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\luasql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\attach.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\auth.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\btree.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\btree_rb.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\build.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\copy.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\date.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\delete.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\encode.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\expr.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\func.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\hash.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\insert.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\main.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\opcodes.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\os.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\pager.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\parse.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\pragma.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\printf.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\random.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\select.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\shell.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\table.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\tokenize.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\trigger.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\update.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\util.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\vacuum.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\vdbe.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\vdbeaux.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external-src\sqlite-2.8.17\where.c">
+      <Filter>sqllite Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\compat\src\compat-5.1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\luasql.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\btree.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\config.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\hash.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\opcodes.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\os.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\pager.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\parse.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\sqlite.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\sqliteInt.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\vdbe.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\external-src\sqlite-2.8.17\vdbeInt.h">
+      <Filter>sqllite Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="sqlite.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -16,6 +16,7 @@ vc14(vs2015)/.build/*
 *.exp
 *.VC.db
 *.vcxproj.user
+*.bsc
 
 # Prerequisites
 *.d
