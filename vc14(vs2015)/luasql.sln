@@ -17,8 +17,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqlpostgres_dll", "luasq
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqlsqlite_dll", "luasqlsqlite_dll.vcxproj", "{6A08B824-6923-41B9-A377-710E71E2B480}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasqlfirebird_dll", "luasqlfirebird_dll.vcxproj", "{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 		Release-Lua53|x64 = Release-Lua53|x64
 		Release-Lua53|x86 = Release-Lua53|x86
 		Release-Lua54|x64 = Release-Lua54|x64
@@ -27,6 +33,14 @@ Global
 		Template|x86 = Template|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Debug|x64.ActiveCfg = Debug|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Debug|x64.Build.0 = Debug|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Debug|x86.ActiveCfg = Debug|Win32
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Debug|x86.Build.0 = Debug|Win32
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release|x64.ActiveCfg = Release|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release|x64.Build.0 = Release|x64
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release|x86.ActiveCfg = Release|Win32
+		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release|x86.Build.0 = Release|Win32
 		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
 		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
 		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
@@ -39,6 +53,14 @@ Global
 		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Template|x64.Build.0 = Release|x64
 		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Template|x86.ActiveCfg = Release|Win32
 		{05D4C1B5-07B2-4B16-ADB7-8E94E1DA2AD2}.Template|x86.Build.0 = Release|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Debug|x64.ActiveCfg = Debug|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Debug|x64.Build.0 = Debug|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Debug|x86.ActiveCfg = Debug|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Debug|x86.Build.0 = Debug|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release|x64.ActiveCfg = Release|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release|x64.Build.0 = Release|x64
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release|x86.ActiveCfg = Release|Win32
+		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release|x86.Build.0 = Release|Win32
 		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
 		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
 		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
@@ -51,6 +73,14 @@ Global
 		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Template|x64.Build.0 = Template|x64
 		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Template|x86.ActiveCfg = Template|Win32
 		{A1FCDCA5-5312-4C8F-BAC1-23570322E907}.Template|x86.Build.0 = Template|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Debug|x64.ActiveCfg = Debug|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Debug|x64.Build.0 = Debug|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Debug|x86.Build.0 = Debug|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release|x64.ActiveCfg = Release|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release|x64.Build.0 = Release|x64
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release|x86.ActiveCfg = Release|Win32
+		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release|x86.Build.0 = Release|Win32
 		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
 		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
 		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
@@ -63,6 +93,14 @@ Global
 		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Template|x64.Build.0 = Template|x64
 		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Template|x86.ActiveCfg = Template|Win32
 		{4DA2EA07-3F8B-4377-9CA5-ACEF5FC737BC}.Template|x86.Build.0 = Template|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Debug|x64.ActiveCfg = Debug|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Debug|x64.Build.0 = Debug|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Debug|x86.Build.0 = Debug|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release|x64.ActiveCfg = Release|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release|x64.Build.0 = Release|x64
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release|x86.ActiveCfg = Release|Win32
+		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release|x86.Build.0 = Release|Win32
 		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
 		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
 		{54246E6A-C32F-494B-8A39-8313C05760A6}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
@@ -75,6 +113,14 @@ Global
 		{54246E6A-C32F-494B-8A39-8313C05760A6}.Template|x64.Build.0 = Template|x64
 		{54246E6A-C32F-494B-8A39-8313C05760A6}.Template|x86.ActiveCfg = Template|Win32
 		{54246E6A-C32F-494B-8A39-8313C05760A6}.Template|x86.Build.0 = Template|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Debug|x64.ActiveCfg = Debug|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Debug|x64.Build.0 = Debug|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Debug|x86.ActiveCfg = Debug|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Debug|x86.Build.0 = Debug|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release|x64.ActiveCfg = Release|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release|x64.Build.0 = Release|x64
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release|x86.ActiveCfg = Release|Win32
+		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release|x86.Build.0 = Release|Win32
 		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
 		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
 		{33090DCD-936A-4FC0-99CB-555446636BB8}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
@@ -87,6 +133,14 @@ Global
 		{33090DCD-936A-4FC0-99CB-555446636BB8}.Template|x64.Build.0 = Template|x64
 		{33090DCD-936A-4FC0-99CB-555446636BB8}.Template|x86.ActiveCfg = Template|Win32
 		{33090DCD-936A-4FC0-99CB-555446636BB8}.Template|x86.Build.0 = Template|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Debug|x64.ActiveCfg = Debug|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Debug|x64.Build.0 = Debug|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Debug|x86.ActiveCfg = Debug|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Debug|x86.Build.0 = Debug|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release|x64.ActiveCfg = Release|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release|x64.Build.0 = Release|x64
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release|x86.ActiveCfg = Release|Win32
+		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release|x86.Build.0 = Release|Win32
 		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
 		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
 		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
@@ -99,6 +153,14 @@ Global
 		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Template|x64.Build.0 = Template|x64
 		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Template|x86.ActiveCfg = Template|Win32
 		{9680719B-0CD6-4009-98BB-9D491DF8F29F}.Template|x86.Build.0 = Template|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Debug|x64.ActiveCfg = Debug|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Debug|x64.Build.0 = Debug|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Debug|x86.Build.0 = Debug|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release|x64.ActiveCfg = Release|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release|x64.Build.0 = Release|x64
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release|x86.ActiveCfg = Release|Win32
+		{6A08B824-6923-41B9-A377-710E71E2B480}.Release|x86.Build.0 = Release|Win32
 		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
 		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
 		{6A08B824-6923-41B9-A377-710E71E2B480}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
@@ -111,6 +173,26 @@ Global
 		{6A08B824-6923-41B9-A377-710E71E2B480}.Template|x64.Build.0 = Template|x64
 		{6A08B824-6923-41B9-A377-710E71E2B480}.Template|x86.ActiveCfg = Template|Win32
 		{6A08B824-6923-41B9-A377-710E71E2B480}.Template|x86.Build.0 = Template|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Debug|x64.ActiveCfg = Debug|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Debug|x64.Build.0 = Debug|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Debug|x86.Build.0 = Debug|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release|x64.ActiveCfg = Release|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release|x64.Build.0 = Release|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release|x86.ActiveCfg = Release|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release|x86.Build.0 = Release|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release-Lua53|x64.ActiveCfg = Release-Lua53|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release-Lua53|x64.Build.0 = Release-Lua53|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release-Lua53|x86.ActiveCfg = Release-Lua53|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release-Lua53|x86.Build.0 = Release-Lua53|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release-Lua54|x64.ActiveCfg = Release-Lua54|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release-Lua54|x64.Build.0 = Release-Lua54|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release-Lua54|x86.ActiveCfg = Release-Lua54|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Release-Lua54|x86.Build.0 = Release-Lua54|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Template|x64.ActiveCfg = Template|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Template|x64.Build.0 = Template|x64
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Template|x86.ActiveCfg = Template|Win32
+		{26B0A59B-0CE6-412A-88BC-8D491D14B5C7}.Template|x86.Build.0 = Template|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

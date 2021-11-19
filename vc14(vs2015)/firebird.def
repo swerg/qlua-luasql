@@ -1,0 +1,4 @@
+LIBRARY		firebird.dll
+DESCRIPTION "LuaSQL driver for Firebird"
+EXPORTS
+luaopen_luasql_firebird
